@@ -1,4 +1,12 @@
-// Botón para desplazarse a la sección de introducción
-document.querySelector('.cta').addEventListener('click', () => {
-  document.getElementById('intro').scrollIntoView({ behavior: 'smooth' });
+function mostrarDetalles(producto) {
+  document.getElementById(producto).style.display = 'block';
+}
+
+function ocultarDetalles(producto) {
+  document.getElementById(producto).style.display = 'none';
+}
+
+document.getElementById('formulario-contacto').addEventListener('submit', function(event) {
+  event.preventDefault();
+  alert('¡Gracias por contactarnos! Te responderemos pronto.');
 });
