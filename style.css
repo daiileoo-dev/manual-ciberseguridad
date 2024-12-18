@@ -311,47 +311,9 @@ header .hero {
   margin: 0 auto;
 }
 
-/* Ajuste general para el logo */
-.logo {
-  width: 80px; /* Reduce el tamaño predeterminado del logo */
-  height: auto;
-  position: absolute; /* Mantiene el logo en su posición */
-  top: 10px; /* Espacio desde el borde superior */
-  right: 10px; /* Espacio desde el borde derecho */
-}
-
-/* Ajustes específicos para pantallas pequeñas */
+/* Ocultar el logo en pantallas pequeñas */
 @media (max-width: 768px) {
   .logo {
-    width: 50px; /* Tamaño más pequeño para dispositivos móviles */
-    top: 5px;
-    right: 5px;
-  }
-
-  .hero {
-    padding-top: 80px; /* Espacio adicional para evitar que el logo se monte sobre el texto */
-  }
-
-  .hero h1 {
-    font-size: 1.8rem; /* Tamaño reducido del título */
-  }
-
-  .hero p {
-    font-size: 1rem; /* Tamaño reducido del subtítulo */
-  }
-}
-
-/* Ajustes para pantallas muy pequeñas (teléfonos pequeños) */
-@media (max-width: 480px) {
-  .logo {
-    width: 40px; /* Logo aún más pequeño */
-  }
-
-  .hero {
-    padding-top: 60px; /* Ajusta el espacio para títulos pequeños */
-  }
-
-  .hero h1 {
-    font-size: 1.5rem;
+    display: none; /* El logo no se mostrará */
   }
 }
