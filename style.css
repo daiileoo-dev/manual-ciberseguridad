@@ -148,3 +148,108 @@ footer {
       opacity: 1;
   }
 }
+
+/* Estilos generales */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: white; /* Letras en blanco */
+  background-color: #1c1c1c; /* Fondo oscuro */
+}
+
+h1, h2 {
+  font-family: 'Open Sans', sans-serif;
+  color: #0078d7; /* Títulos en azul */
+}
+
+p, ul li {
+  line-height: 1.8;
+  font-size: 1rem;
+  color: #ddd; /* Texto blanco suave */
+}
+
+/* Encabezado oscuro */
+.header-dark {
+  background: linear-gradient(to bottom right, #2a2a2a, #1c1c1c);
+  text-align: center;
+  padding: 2rem;
+}
+
+.header-dark .hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.header-dark .hero p {
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+}
+
+/* Sección principal */
+.main-dark {
+  padding: 2rem;
+}
+
+.content {
+  max-width: 800px;
+  margin: 0 auto;
+  background: #2a2a2a;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.content ul {
+  list-style-type: square;
+  padding-left: 1.5rem;
+}
+
+.content ul li {
+  margin-bottom: 0.5rem;
+}
+
+/* Botones */
+.action-buttons {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.btn {
+  background-color: #0078d7;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #005bb5;
+}
+
+.btn-light {
+  background-color: #ddd;
+  color: #1c1c1c;
+}
+
+.btn-light:hover {
+  background-color: #bbb;
+}
+
+/* Visor de documentos */
+.document-viewer {
+  margin-top: 2rem;
+  background: #2a2a2a;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.document-viewer iframe {
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
