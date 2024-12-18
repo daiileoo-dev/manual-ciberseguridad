@@ -253,3 +253,60 @@ p, ul li {
   border-radius: 10px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
+/* Ajustes generales para pantallas pequeñas */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px; /* Reduce el tamaño de la fuente */
+    padding: 0;
+  }
+
+  header .hero h1 {
+    font-size: 1.8rem; /* Títulos más pequeños */
+  }
+
+  header .hero p {
+    font-size: 1rem;
+  }
+
+  .content {
+    padding: 1rem; /* Reduce el padding */
+  }
+
+  .btn {
+    padding: 8px 16px; /* Botones más pequeños */
+  }
+
+  .logo {
+    width: 40px; /* Reduce el tamaño del logo */
+  }
+
+  .document-viewer iframe {
+    height: 400px; /* Ajusta el visor del documento */
+  }
+}
+
+/* Ajustes para pantallas muy pequeñas (teléfonos) */
+@media (max-width: 480px) {
+  header .hero h1 {
+    font-size: 1.5rem;
+  }
+
+  .content {
+    margin: 0;
+    padding: 0.5rem;
+  }
+
+  .btn {
+    font-size: 0.9rem;
+  }
+}
+
+header .hero {
+  text-align: center;
+  padding: 2rem 5%; /* Usa porcentajes */
+}
+
+.content {
+  max-width: 90%; /* Limita el ancho relativo a la pantalla */
+  margin: 0 auto;
+}
